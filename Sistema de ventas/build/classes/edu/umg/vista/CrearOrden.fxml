@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="208.0" prefWidth="307.0" style="-fx-background-color: #1b1b1b;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="29.0" layoutY="45.0" text="No de correlativo " />
+      <Label layoutX="29.0" layoutY="87.0" text="Cantidad" />
+      <Label layoutX="28.0" layoutY="126.0" text="Producto" />
+      <TextField fx:id="txtNoCorrelativo" layoutX="142.0" layoutY="41.0" prefHeight="25.0" prefWidth="131.0" />
+      <TextField fx:id="txtCantidad" layoutX="142.0" layoutY="83.0" prefHeight="25.0" prefWidth="131.0" />
+      <TextField fx:id="txtProducto" layoutX="142.0" layoutY="122.0" prefHeight="25.0" prefWidth="131.0" />
+      <Button fx:id="btnAgregar" layoutX="173.0" layoutY="161.0" mnemonicParsing="false" text="Agregar" />
+      <Button fx:id="btnCancelar" layoutX="93.0" layoutY="161.0" mnemonicParsing="false" text="Cancelar" />
+   </children>
+</Pane>

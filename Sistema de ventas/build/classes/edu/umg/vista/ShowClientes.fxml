@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="335.0" prefWidth="301.0" style="-fx-background-color: #1b1b1b;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView fx:id="lstClientes" layoutX="20.0" layoutY="40.0" prefHeight="255.0" prefWidth="261.0" />
+      <Label layoutX="20.0" layoutY="23.0" prefHeight="17.0" prefWidth="120.0" text="Clientes registrados:" />
+   </children>
+</Pane>
