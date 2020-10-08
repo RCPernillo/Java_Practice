@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="LoginPane" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" style="-fx-background-color: #1b1b1b;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="umg.edu.Controller.GeneralController">
+   <children>
+      <PasswordField fx:id="txtContrasena" layoutX="76.0" layoutY="100.0" promptText="Contraseña" style="-fx-border-color: b32428;">
+      </PasswordField>
+      <TextField fx:id="txtUsuario" layoutX="76.0" layoutY="53.0" promptText="Usuario" style="-fx-border-color: b32428;">
+      </TextField>
+      <Button fx:id="btnIngresar" layoutX="124.0" layoutY="155.0" mnemonicParsing="false" onAction="#btnIngresar" style="-fx-background-color: b32428;" text="Ingresar" textAlignment="CENTER" />
+   </children>
+</Pane>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="umg.edu.Controller.GeneralController">
+  <children>
+    <MenuBar VBox.vgrow="NEVER">
+      <menus>
+        <Menu mnemonicParsing="false" text="Clientes">
+          <items>
+                  <MenuItem fx:id="VerClientes" mnemonicParsing="false" onAction="#verClientes" text="Ver clientes" />
+            <MenuItem fx:id="mItemAgregarCliente" mnemonicParsing="false" onAction="#agregarCliente" text="Agregar cliente" />
+            <MenuItem fx:id="mItemBorrarCliente" mnemonicParsing="false" onAction="#borrarCliente" text="Borrar cliente" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Productos">
+          <items>
+            <MenuItem fx:id="mItemVerProductos" mnemonicParsing="false" onAction="#verProductos" text="Ver productos" />
+            <MenuItem fx:id="mItemAgregarProducto" mnemonicParsing="false" onAction="#agregarProducto" text="Agregar producto" />
+            <MenuItem fx:id="mItemBorrarProducto" mnemonicParsing="false" onAction="#borrarProducto" text="Borrar producto" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Orden">
+          <items>
+                  <MenuItem fx:id="mItemVerOrden" mnemonicParsing="false" onAction="#verOrden" text="Ver ordenes " />
+            <MenuItem fx:id="mItemGeneraOrden" mnemonicParsing="false" onAction="#generarOrden" text="Generar orden" />
+                  <MenuItem fx:id="mItemCancelarOrden" mnemonicParsing="false" onAction="#cancelarOrden" text="Cancelar orden" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #1b1b1b;" VBox.vgrow="ALWAYS">
+      <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="220.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true" />
+            <Text fill="#dbe424" layoutX="149.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BIENVENIDO">
+               <font>
+                  <Font name="Arial Bold" size="55.0" />
+               </font>
+            </Text>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="208.0" prefWidth="366.0" style="-fx-background-color: #1b1b1b;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="btnDelete" layoutX="226.0" layoutY="154.0" mnemonicParsing="false" text="Aceptar" />
+      <Button fx:id="btnCancelDelete" layoutX="117.0" layoutY="154.0" mnemonicParsing="false" text="Cancelar" />
+      <Label layoutX="28.0" layoutY="78.0" text="Id de cliente que desea eliminar" />
+      <TextField fx:id="txtIdDelete" layoutX="227.0" layoutY="74.0" prefHeight="25.0" prefWidth="119.0" />
+   </children>
+</Pane>
